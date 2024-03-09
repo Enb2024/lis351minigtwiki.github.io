@@ -1,0 +1,200 @@
+        header {
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+
+        main {
+            padding: 20px;
+            margin-top: -130px;
+            margin-left: 50px;
+        }
+
+        .titles {
+            text-align: left;
+            margin-left: 50px;
+            margin-top: 50px;
+        }
+
+        .back-button {
+            width: 300px;
+            height: auto;
+            border-radius: 50%;
+            overflow: hidden;
+            position: absolute;
+            top: -65px;
+            left: -85px;
+        }
+
+        .back-button img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin-top: 10px;
+            margin-right: 80px;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-right: 60px;
+        }
+
+        nav ul li a img {
+            max-width: 50px;
+            height: auto;
+            display: block;
+        }
+
+        h1 {
+            font-size: 64px;
+            margin-top: 40px;
+        }
+
+        /*Index*/
+
+        .background-image {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background-size: cover;
+        }
+
+        .background-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .indextitles {
+            text-align: left;
+            margin-left: 50px;
+        }
+
+        .main-title {
+            font-size: 20px;
+            margin-top: 40px;
+        }
+
+        .sub-title {
+            font-size: 128px;
+            margin-top: -30px;
+            font-style: italic;
+        }
+
+        .image-frame {
+            border: 5px solid black;
+            max-width: 400px;
+            min-width: 400px;
+            margin-top: -80px;
+            margin-left: 900px;
+        }
+
+        .image-frame img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /*Intro*/
+
+        .intro-frame {
+            background-color: #e6e6e6;
+            padding: 10px;
+            margin-top: 75px;
+        }
+
+        .introimg-frame {
+            border: 5px solid black;
+            max-width: 300px;
+            min-width: 300px;
+            margin-top: 75px;
+            margin-right: 30px;
+            float: right;
+        }
+
+        .introimg-frame img {
+            width: 300px;
+            height: 200px;
+            display: block;
+        }
+
+        /*Brand*/
+
+        .brand-frame {
+            border: 5px solid black;
+            max-width: 300px;
+            min-width: 300px;
+            margin-top: 75px;
+            margin-right: 30px;
+            float: left;
+        }
+
+        .brand-frame img {
+            width: 300px;
+            height: 200px;
+            display: block;
+        }
+
+        .brand-description {
+            text-align: left;
+            margin-top: 10px;
+            font-size: 20px;
+        }
+
+        /*Other*/
+
+        .textbox {
+            position: absolute;
+            background-color: #696969;
+        }
+
+        #textbox1 {
+            width: 400px;
+            height: 100px;
+            top: 220px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        #textbox2 {
+            width: 400px;
+            height: 220px;
+            top: 350px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        #textbox3 {
+            width: 270px;
+            height: 350px;
+            top: 220px;
+            left: 550px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        dl {
+            margin-top: 10px;
+        }
+
+        dt {
+            font-weight: bold;
+        }
+
+        dd {
+            margin-left: 20px;
+        }
+
+        ol {
+            margin-top: 0;
+        }
